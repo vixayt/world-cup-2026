@@ -2,12 +2,15 @@
   "name": "wc2026-goal-tracker",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://vixayt.github.io/world-cup-2026",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.7",
