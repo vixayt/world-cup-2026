@@ -1,8 +1,9 @@
-import { DATA, CONF_LABEL } from "../data";
+import { DATA, CONF_LABEL, parseMinute } from "../data";
 
 function MatchCard({ row }) {
   const [stageName, home, hs, away, as, date, note, conf, goals] = row;
   const hasFlag = goals.some((g) => g[4]);
+  const sortedGoals = [...goals].sort((a, b) => parseMinute(a[2]) - parseMinute(b[2]));
 
   return (
     <div className="match">
@@ -24,7 +25,7 @@ function MatchCard({ row }) {
       ) : (
         <table className="goals">
           <tbody>
-            {goals.map((g, i) => {
+            {sortedGoals.map((g, i) => {
               const [team, scorer, minute, tag, flagged] = g;
               return (
                 <tr key={i}>
