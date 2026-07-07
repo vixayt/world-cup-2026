@@ -1,4 +1,7 @@
-# React + Vite
+# Visit the site here!
+https://vixayt.github.io/world-cup-2026/
+
+# Created with React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
