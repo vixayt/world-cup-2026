@@ -195,6 +195,10 @@ export const DATA = [
   ["England","Bellingham","36'"],["England","Bellingham","38'"],["Mexico","Quiñones","42'"],["England","Kane","60'","pen"],["Mexico","Jiménez","69'","pen"]]],
 ["Round of 16","Portugal",0,"Spain",1,"6 Jul",null,G,[
   ["Spain","Merino","90+1'"]]],
+["Round of 16","United States",1,"Belgium",4,"6 Jul",null,G,[
+  ["Belgium","De Ketelaere","9'"],["United States","Tillman","31'"],["Belgium","De Ketelaere","33'"],["Belgium","Vanaken","57'"],["Belgium","Lukaku","90+3'"]]],
+["Round of 16","Argentina",3,"Egypt",2,"7 Jul",null,G,[
+  ["Egypt","Ibrahim","15'"],["Egypt","Zico ","67'"],["Argentina","Romero","79'"],["Argentina","Messi","83'"],["Argentina","Fernández","90+2'"]]],
 ];
 
 export const CONF_LABEL = { good: "Verified", warn: "Self-consistent", flag: "Flagged" };
